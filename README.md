@@ -2,6 +2,8 @@
 
 This repository contains an experimental, privacy-aware setup for leveraging generative AI methods in robotics control. With the solution presented here, a user can freely define actions by voice that are translated into plans that a robot vacuum can execute in an open-world environment that is observed by a camera.
 
+![Overview](/docs/overview.png)
+
 The fundamental advantages of the methods presented here are:
 - The system **only requires minimum calibration** toward its environment
 - Robot **planning and control** are taken over by a large-language model
@@ -24,11 +26,11 @@ To get started, follow the steps below:
 1. Clone this repository 
 2. Install the requirements from `requirements.txt` into a Python environment (testes with Python 3.11)
 3. Set up the credentials for running the code
-   4. Rename the file `src/config.template.toml` to `config.toml`. For all the steps below, insert the acquired credentials into `config.toml`
-   5. Get the device ID of your Roborock vacuum. You can read more about how to do this in the documentation of the `python-roborock` library.
-   6. Get username, password, IP, and channel name for the rtsp connection to the camera. Note that for the stream to work properly, the camera should be connected to the same network of the device you are running the code on.
-   7. Get an API key for OpenAI.
-6. Once you have credentials configured as described above, run `src/run.py` to run the workflow.
+   1. Rename the file `src/config.template.toml` to `config.toml`. For all the steps below, insert the acquired credentials into `config.toml`
+   2. Get the device ID of your Roborock vacuum. You can read more about how to do this in the documentation of the `python-roborock` library.
+   3. Get username, password, IP, and channel name for the rtsp connection to the camera. Note that for the stream to work properly, the camera should be connected to the same network of the device you are running the code on.
+   4. Get an API key for OpenAI.
+5. Once you have credentials configured as described above, run `src/run.py` to run the workflow.
 
 ## Architecture and Functionality
 
