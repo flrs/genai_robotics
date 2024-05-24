@@ -1,0 +1,11 @@
+[controller]
+openai_key = "<YOUR OPENAPI KEY>"
+
+[camera]
+username = "<YOUR CAMERA USERNAME>"
+password = "<YOUR CAMERA PASSWORD>"
+ip_address = "<YOUR CAMERA IP_ADDRESS>"
+channel = "<YOUR CAMERA CHANNEL>"
+
+[roborock]
+device_id = "<YOUR ROBOROCK DEVICE_ID>"

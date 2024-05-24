@@ -1,0 +1,1 @@
+Model extracted manually from https://huggingface.co/spaces/stevengrove/YOLO-World

@@ -1,0 +1,14 @@
+numpy
+matplotlib
+onnxruntime
+opencv-python-headless
+black
+supervision
+tqdm
+python-roborock
+pyshark
+pandas
+openai
+tabulate
+colorama
+toml

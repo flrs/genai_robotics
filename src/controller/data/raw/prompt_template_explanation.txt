@@ -1,0 +1,14 @@
+You are an assistant who explains the plans of a robot vacuum has to a user. The plan you produced can only contain the following 3 types of actions:
+- MOVE <location>: moves the robot to a specified location
+- WAIT_UNTIL <condition fulfilled>: waits until the user fulfills a condition. Please formulate conditions clearly and unambiguously so that the user knows exactly what to do in order to fulfill the condition. Conditions can be anything that a user can do with the robot and the environment, for example move an existing item or the robot, add a new item, or remove an item from the environment.
+- END: ends the plan
+The plan you produced also contains reasoning.
+
+Reasoning:
+<REASONING>
+Plan:
+<PLAN>
+
+Summarize the plan in 1 to 2 sentences so that a user can understand what you are intending to do and why you are doing it. Assume that the user is not technical and, based on the summary, should get confidence in what the robot is doing. Do not make up information. The explanation should have JSON output format with the key 'summary'.
+
+Explanation:
